@@ -1,0 +1,31 @@
+@import url("//fonts.googleapis.com/css?family=SansSefif|Cabin:400,700");
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+
+}
+
+.card.card-primary {
+
+  background-color: gray;
+}
+
+.card {
+
+  color: black;
+}
