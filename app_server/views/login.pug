@@ -1,0 +1,79 @@
+extends layout
+block content
+ h1.text-center Login
+ .login-dark
+    img.img-fluid(src='/img/mooReviewsBackground.jpg' style='width: 1920px;height: 1000px;')
+    form(method='post')
+        h2.sr-only Login Form
+        .illustration
+            i.icon.ion-ios-locked-outline
+        .form-group
+            input.form-control(type='email' name='email' placeholder='Email')
+        .form-group
+            input.form-control(type='password' name='password' placeholder='Password')
+        .form-group
+            button.btn.btn-primary.btn-block(type='submit') Log In
+        a.forgot(href='#') Forgot your email or password?
+ .container
+    .col-lg-10.col-xl-8.offset-lg-1.offset-xl-2
+        .intro
+        .text
+            figure
+        footer.page-footer(style='width: 730px;margin: 0px;padding: 0px;')
+            .container
+                .row(style='width: 730px;')
+                    .col-6.col-md-3(style='width: 157.5px;')
+                        h4 Home
+                        ul.footer-links
+                            li
+                                a(href='#') Consectetur adipiscing
+                            li
+                                a(href='#') Facilisis vulputate est eget
+                            li
+                                a(href='#') Lorem ipsum dolor
+                    .col-6.col-md-3(style='width: 157.5px;')
+                        h4 Information
+                        ul.footer-links
+                            li
+                                a(href='#') Aenean condimentum viverra
+                            li
+                                a(href='#') Proin porta diam
+                    .col-6.col-md-3(style='width: 157.5px;')
+                        h4 Register
+                        ul.footer-links
+                            li
+                                a(href='#') Proin laoreet volutpat
+                            li
+                                a(href='#') Aenean tincidunt est
+                        h4 Nulla cursus finibus
+                        ul.footer-links
+                            li
+                                a(href='#') Curabitur elementum odio
+                            li
+                                a(href='#') Proin condimentum ac
+                    .col-6.col-md-3(style='width: 157.5px;')
+                        h4 Login
+                        ul.footer-links
+                            li
+                                a(href='#') Praesent gravida
+                            li
+                                a(href='#') Praesent egestas
+                        h4 Ut eget feugiat ante
+                        ul.footer-links
+                            li
+                                a(href='#') Etiam ornare vestibulum
+                            li
+                                a(href='#') Donec tincidunt tempus
+                    .col-6.col-md-3(style='width: 157.5px;')
+                        h4 About
+                        ul.footer-links
+                            li
+                                a(href='#') Praesent gravida
+                            li
+                                a(href='#') Praesent egestas
+                        h4 Ut eget feugiat ante
+                        ul.footer-links
+                            li
+                                a(href='#') Etiam ornare vestibulum
+                            li
+                                a(href='#') Donec tincidunt tempus
